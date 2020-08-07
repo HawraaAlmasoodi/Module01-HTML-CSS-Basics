@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="index2.css">
+</head>
+
+<body>
+  <h3> Contactgegevens:</h3>
+  <p>E-mail: hawraaalmasoodi@hotmail.com</p>
+  <p>Adres: Breda-Prinsenbeek</p>
+
+  <p>Contactformulier:</p>
+  <form name="contact" method="POST" data-netlify="true">
+    <label for="name">Naam:</label>
+    <input type="text" id="name" name="name" />
+    <br>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="email" name="email" />
+    <br>
+    <label for="phone">Telfoonnummer:</label>
+    <input type="tel" id="phone" name="phone" />
+    <br>
+    <label for="Age">Leeftijd:</label>
+    <input type="number" id="Age" name="leeftijd" min="1" max="200" step="5" />
+    <br>
+    <label for="geboortedatum">Geboortedatum:</label>
+    <input type="date" id="geboortedatum" name="geboortedatum" />
+    <br>
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male"> Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female"> Female</label>
+    <br>
+    <p>Favoriet Cuisin:</p>
+    <input type="checkbox" id="cuisin1" name="cuisin1" value="frans">
+    <label for="cuisin1">frans</label><br>
+    <input type="checkbox" id="cuisin2" name="cuisin2" value="italiaans">
+    <label for="cuisin2">italiaans</label><br>
+    <input type="checkbox" id="cuisin3" name="cuisin3" value="spaans">
+    <label for="cuisin3">spaans</label><br>
+    <input type="checkbox" id="cuisin4" name="cuisin4" value="arabish">
+    <label for="cuisin4">arabish</label>
+    <br>
+    <br>
+    <label for="favcolor">Colorpicker:</label>
+    <input type="color" id="favcolor" name="favcolor">
+    <br>
+    <label for="biografie">Biografie:</label>
+    <textarea id="biografie" name="biografie"></textarea>
+    <br>
+    <br>
+    <label for="mijnlaatsterecept">Selecteer een bestand:</label>
+    <input type="file" id="mijnlaatsterecept" name="mijnlaatsterecept">
+    <br>
+    <label for="receptenwebsite">Voeg uw recepten website:</label>
+    <input type="url" id="receptenwebsite" name="receptenwebsite">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+  </form>
+  <br>
+  <a href=" index.html"> Home </a>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+body {
+    color: yellow;
+    background-color: grey;
+}
+
+img {
+height: 150px;
+width: 100px;
+}

@@ -1,0 +1,13 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+body {
+    color: black;
+    background-color: grey;
+}
+
+
+h3 + p {
+    color: violet;
+}

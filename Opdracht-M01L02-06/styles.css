@@ -1,0 +1,29 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+body {
+    color: blue;
+    background-color: violet;
+}
+h1{
+    text-align: center;
+}
+
+
+h3 ~ ul { 
+   font-size: 20px;
+}
+
+.intro {
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 25px;
+
+}
+.black-border {
+    border: 5px solid black;
+}
